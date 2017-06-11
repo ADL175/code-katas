@@ -1,3 +1,19 @@
+
+proper_parenthetics README:
+
+Python function takes a unicode string (text) as input and returns one of three possible values:
+
+Return 1 if the string is “open” (there are open parens that are not closed)
+Return 0 if the string is “balanced” (there are an equal number of open and closed parentheses in the string)
+Return -1 if the string is “broken” (a closing parens has not been proceeded by one that opens)
+
+'(()' is open: 1
+'((()))' is balanced: 0
+'()))' is broken: -1
+...
+
+
+
 # code-katas
 Day 5 code wars challenges
 # Completed Katas
