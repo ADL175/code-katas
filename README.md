@@ -1,3 +1,37 @@
+string_pyramid:
+
+Worked intermittently with Miguel Pena during this kata. This pyramid is built from characters from a given string.
+
+The first method -watch_pyramid_from_the_side(characters): shows the pyramid as you would see from the side.
+The second method -watch_pyramid_from_above(characters): shows the pyramid as you would see from above.
+The third method -count_visible_characters_of_the_pyramid(characters):  returns the count of all characters, that are visible from outside the pyramid.
+The forth method -count_all_characters_of_the_pyramid(characters): should count all characters of the pyramid. The pyramid is completely solid and has no holes or rooms in it.
+
+Every character will be used for building one layer of the pyramid. So the length of the given string will be the height of the pyramid. Every layer will be built with stones from the given character. There is no limit of stones.
+The pyramid should have perfect angles of 45 degrees.
+
+Example: Given string: "abc"
+Pyramid from the side: returns
+
+  c
+ bbb
+aaaaa
+
+Pyramid from above: returns
+
+aaaaa
+abbba
+abcba
+abbba
+aaaaa
+
+Count of visible stones/characters:
+returns 25
+Count of all used stones/characters:
+returns 35
+<!-- Code Kata from ^^^from http://www.codewars.com/kata/string-pyramid -->
+
+...
 sort_cards README:
 
 The sort_cards() function sorts a shuffled list of cards, so that any given list of cards is sorted by rank, no matter the starting collection.
